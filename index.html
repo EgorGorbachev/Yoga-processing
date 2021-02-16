@@ -10,10 +10,10 @@
     <section class="intro">
         <header>
             <a class="logo" href="#"></a>
-            <div class="nav">
+            <nav class="nav">
                 <ul class="menu">
                     <li class="menu-item">
-                        <a href="#">Home</a>
+                        <a href="./index.html">Home</a>
                     </li>
                     <li class="menu-item">
                         <a href="./about-us.html">About Us</a>
@@ -25,16 +25,34 @@
                         <a href="./pricing.html">Pricing</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#">Login</a>
-                    </li>
-                    <li class="menu-item">
                         <a href="./contact.html">Contact</a>
                     </li>
                 </ul>
                 <button class="nav-button main-button">Start your free trial</button>
+            </nav>
+            <div class="min-header">
+                <a href="#" class="menu-burger">
+                    <span></span>
+                </a>
+                <div class="min-nav">
+                    <ul class="min-menu">
+                        <li class="min-menu-item">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="min-menu-item">
+                            <a href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="min-menu-item">
+                            <a href="./classes.html">Classes</a>
+                        </li>
+                        <li class="min-menu-item">
+                            <a href="./pricing.html">Pricing</a>
+                        </li>
+                        <li class="min-menu-item">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </header>
         <div class="container">
@@ -52,7 +70,10 @@
             <div class="about-block">
                 <h2 class="about-block-title">Everyone's Yoga</h2>
                 <p class="about-block-text">We offers over 4,000 professionally-filmed online yoga classes taught by experienced, certified yoga teachers to customers around the world. We believe that yoga should be accessible to everyone and our classes are designed to give you an in-studio experience, at an affordable price, in your own home. </p>
-                <video src=""></video>
+                <div class="video-wr">
+                    <video class="block-video" controls preload="metadata" src="./video/yoga.mp4"></video>
+                    <a class="btn-play"><svg class="svg" viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z"></path></svg></a>
+                </div>
             </div>
             <div class="about-reason">
                 <div class="about-reason-item">
@@ -124,8 +145,8 @@
             <div class="main-slider-wrapper swiper-container">
                     <div class="classes-slider swiper-wrapper">
                         <div class="classes-slide swiper-slide">
-                            <img src="./image/home/classes/img-classes-1.png" alt="img-classes-1" class="classes-slide-img">
-                            <h3 class="classes-slide-title">Seated and Supine Poses for Beginners</h3>
+                            <a href="./single.html"><img src="./image/home/classes/img-classes-1.png" alt="img-classes-1" class="classes-slide-img"></a>
+                            <a href="./single.html" class="classes-slide-title">Seated and Supine Poses for Beginners</a>
                             <div class="classes-slide-dis">
                                 <div class="dis-item">
                                     <img src="./image/home/classes/icon-classes-1.png" alt="">
@@ -143,8 +164,8 @@
                             <p class="classes-slide-text">Welcome to part 5 of our beginner series with Simon Park! </p>
                         </div>
                         <div class="classes-slide swiper-slide">
-                            <img src="./image/home/classes/img-classes-2.png" alt="img-classes-1" class="classes-slide-img">
-                            <h3 class="classes-slide-title">Seated and Supine Poses for Beginners</h3>
+                            <a href="./single.html"><img src="./image/home/classes/img-classes-2.png" alt="img-classes-1" class="classes-slide-img"></a>
+                            <a href="./single.html" class="classes-slide-title">Seated and Supine Poses for Beginners</a>
                             <div class="classes-slide-dis">
                                 <div class="dis-item">
                                     <img src="./image/home/classes/icon-classes-1.png" alt="">
@@ -162,8 +183,8 @@
                             <p class="classes-slide-text">Stretch shoulders, hips, and hamstrings as you work towards Compass Pose (Parivrtta Surya Yantrasana).</p>
                         </div>
                         <div class="classes-slide swiper-slide">
-                            <img src="./image/home/classes/img-classes-3.png" alt="img-classes-1" class="classes-slide-img">
-                            <h3 class="classes-slide-title">Seated and Supine Poses for Beginners</h3>
+                            <a href="./single.html"><img src="./image/home/classes/img-classes-3.png" alt="img-classes-1" class="classes-slide-img"></a>
+                            <a href="./single.html" class="classes-slide-title">Seated and Supine Poses for Beginners</a>
                             <div class="classes-slide-dis">
                                 <div class="dis-item">
                                     <img src="./image/home/classes/icon-classes-1.png" alt="">
@@ -181,8 +202,8 @@
                             <p class="classes-slide-text">Explore handstand variations and transitions in this advanced class. A brief warm up will prepare you to play with inversions! </p>
                         </div>
                         <div class="classes-slide swiper-slide">
-                            <img src="./image/home/classes/img-classes-4.png" alt="img-classes-1" class="classes-slide-img">
-                            <h3 class="classes-slide-title">Seated and Supine Poses for Beginners</h3>
+                            <a href="./single.html"><img src="./image/home/classes/img-classes-4.png" alt="img-classes-1" class="classes-slide-img"></a>
+                            <a href="./single.html" class="classes-slide-title">Seated and Supine Poses for Beginners</a>
                             <div class="classes-slide-dis">
                                 <div class="dis-item">
                                     <img src="./image/home/classes/icon-classes-1.png" alt="">
@@ -200,8 +221,8 @@
                             <p class="classes-slide-text">Amanda Botur has created a class to help you prepare for the hormonal shifts and rising emotions that may occur in the days ...</p>
                         </div>
                         <div class="classes-slide swiper-slide">
-                            <img src="./image/home/classes/img-classes-1.png" alt="img-classes-1" class="classes-slide-img">
-                            <h3 class="classes-slide-title">Seated and Supine Poses for Beginners</h3>
+                            <a href="./single.html"><img src="./image/home/classes/img-classes-1.png" alt="img-classes-1" class="classes-slide-img"></a>
+                            <a href="./single.html" class="classes-slide-title">Seated and Supine Poses for Beginners</a>
                             <div class="classes-slide-dis">
                                 <div class="dis-item">
                                     <img src="./image/home/classes/icon-classes-1.png" alt="">
@@ -219,8 +240,8 @@
                             <p class="classes-slide-text">Welcome to part 5 of our beginner series with Simon Park! </p>
                         </div>
                         <div class="classes-slide swiper-slide">
-                            <img src="./image/home/classes/img-classes-2.png" alt="img-classes-1" class="classes-slide-img">
-                            <h3 class="classes-slide-title">Seated and Supine Poses for Beginners</h3>
+                            <a href="./single.html"><img src="./image/home/classes/img-classes-2.png" alt="img-classes-1" class="classes-slide-img"></a>
+                            <a href="./single.html" class="classes-slide-title">Seated and Supine Poses for Beginners</a>
                             <div class="classes-slide-dis">
                                 <div class="dis-item">
                                     <img src="./image/home/classes/icon-classes-1.png" alt="">
@@ -250,21 +271,11 @@
             <h2 class="gallery-suptitle">Access hundreds of yoga classes shot in natural studios around the world. Unlimited access for $15/month.</h2>
             <button class="gallery-button main-button">Start Your 14-Day Free Trial</button>
             <div class="gallery-images">
-                <div class="gallery-images-item">
-                    <img src="./image/home/gallery/img-gallery-1.jpg" alt="">
-                </div>
-                <div class="gallery-images-item">
-                    <img src="./image/home/gallery/img-gallery-2.jpg" alt="">
-                </div>
-                <div class="gallery-images-item">
-                    <img src="./image/home/gallery/img-gallery-3.jpg" alt="">
-                </div>
-                <div class="gallery-images-item">
-                    <img src="./image/home/gallery/img-gallery-4.jpg" alt="">
-                </div>
-                <div class="gallery-images-item">
-                    <img src="./image/home/gallery/img-gallery-5.jpg" alt="">
-                </div>
+                <img class="gallery-image-1" src="./image/home/gallery/img-gallery-1.jpg" alt="">
+                <img class="gallery-image-2" src="./image/home/gallery/img-gallery-2.jpg" alt="">
+                <img class="gallery-image-3" src="./image/home/gallery/img-gallery-3.jpg" alt="">
+                <img class="gallery-image-4" src="./image/home/gallery/img-gallery-4.jpg" alt="">
+                <img class="gallery-image-5" src="./image/home/gallery/img-gallery-5.jpg" alt="">
             </div>
         </div>
     </section>
@@ -371,7 +382,7 @@
     </section>
 
     <section class="call">
-        <div class="container">
+        <div class="container call-wrapper">
             <h2 class="call-title">2020 Renewal Series</h2>
             <p class="call-text">Finally, a resolution you can stick to. Reconnect with your fitness goals in 2017 with four classes designed to ease you back into your routine.</p>
             <button class="main-button call-button">take this challenge</button>
@@ -383,19 +394,19 @@
         <div class="container">
             <div class="logo-wrapper">
                 <div class="logo-item">
-                    <img src="./image/home/logo/logo-1.png" alt="">
+                    <a href="#"><img src="./image/home/logo/logo-1.png" alt=""></a>
                 </div>
                 <div class="logo-item">
-                    <img src="./image/home/logo/logo-2.png" alt="">
+                    <a href="#"><img src="./image/home/logo/logo-2.png" alt=""></a>
                 </div>
                 <div class="logo-item">
-                    <img src="./image/home/logo/logo-3.png" alt="">
+                    <a href="#"><img src="./image/home/logo/logo-3.png" alt=""></a>
                 </div>
                 <div class="logo-item">
-                    <img src="./image/home/logo/logo-4.png" alt="">
+                    <a href="#"><img src="./image/home/logo/logo-4.png" alt=""></a>
                 </div>
                 <div class="logo-item">
-                    <img src="./image/home/logo/logo-5.png" alt="">
+                    <a href="#"><img src="./image/home/logo/logo-5.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -406,16 +417,16 @@
             <div class="container subscribe">
                 <div class="subscribe">
                     <div class="subscribe-logo">
-                        <img src="./image/footer/logo-footer.png" alt="footer logo">
+                        <a href="#"><img src="./image/footer/logo-footer.png" alt="footer logo"></a>
                     </div>
                     <div class="subscribe-dis">
                         <h3 class="subscribe-dis-title">subscribe</h3>
                         <p  class="subscribe-dis-suptitle">To receive the lastest freebies in your inbox</p>
                     </div>
-                    <div class="subscribe-form">
+                    <form class="subscribe-form">
                         <input type="text" placeholder="Your Address Email"> 
                         <button>subscribe</button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -425,8 +436,8 @@
                     <h3 class="top-title">Contact Us</h3>
                     <p class="top-contacts-content">PO Box 16122 Collins Street West,
                         Victoria 8007 Australia</p>
-                    <p class="top-contacts-content">Alitstudios@gmai.com</p>
-                    <p class="top-contacts-content">+61 3 8376 6284</p>
+                    <a class="top-contacts-content link" href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
+                    <a class="top-contacts-content link" href="tel:+61 3 8376 6284">+61 3 8376 6284</a>
                     <div class="top-social">
                         <div class="top-social-link facebook">
                             <a href="#"></a>
@@ -444,12 +455,12 @@
                 </div>
                 <div class="top-links">
                     <h3 class="top-title">Contact Us</h3>
-                    <p class="top-links-item">About Us</p>
-                    <p class="top-links-item">Advertise</p>
-                    <p class="top-links-item">Terms & Conditions</p>
-                    <p class="top-links-item">Privacy Policy</p>
-                    <p class="top-links-item">Careers</p>
-                    <p class="top-links-item">Shop</p>
+                    <a href="#" class="top-links-item link">About Us</a>
+                    <a href="#" class="top-links-item link">Advertise</a>
+                    <a href="#" class="top-links-item link">Terms & Conditions</a>
+                    <a href="#" class="top-links-item link">Privacy Policy</a>
+                    <a href="#" class="top-links-item link">Careers</a>
+                    <a href="#" class="top-links-item link">Shop</a>
                 </div>
                 <div class="top-time">
                     <h3 class="top-title">Open Hours</h3>
@@ -519,6 +530,67 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div class="min-footer">
+            <div class="contacts-min">
+                <div class="top-header">
+                    <h3 class="top-title">Contact Us:</h3>
+                    <p class="top-contacts-content">PO Box 16122 Collins Street West,
+                    Victoria 8007 Australia</p>
+                    <p class="top-contacts-content">Alitstudios@gmai.com</p>
+                    <p class="top-contacts-content">+61 3 8376 6284</p>
+                </div>
+                <div class="top-social">
+                    <div class="top-social-link facebook">
+                        <a href="#"></a>
+                    </div>
+                    <div class="top-social-link twitter">
+                        <a href="#"></a>
+                    </div>
+                    <div class="top-social-link google">
+                        <a href="#"></a>
+                    </div>
+                    <div class="top-social-link pinterest">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="top-time">
+                <h3 class="top-title">Open Hours</h3>
+                <div class="top-time-content">
+                    <div class="top-time-days">
+                        <p>Monday</p>
+                        <p>Tuesday</p>
+                        <p>Wednesday</p>
+                        <p>Thursday</p>
+                        <p>Friday</p>
+                        <p>Saturday</p>
+                        <p>Sunday</p>
+                    </div>
+                    <div class="top-time-arrows">
+                        <p>></p>
+                        <p>></p>
+                        <p>></p>
+                        <p>></p>
+                        <p>></p>
+                        <p>></p>
+                        <p>></p>
+                    </div>
+                    <div class="top-time-hours">
+                        <p>11am - 2pm</p>
+                        <p>8am - 10pm</p>
+                        <p>11am - 12pm</p>
+                        <p>11am - 12pm</p>
+                        <p>10am - 2pm</p>
+                        <p>10am - 2pm</p>
+                        <p>Close</p>
+                    </div>
+                </div>
+            </div>
+            <div class="top-location">
+                <h3 class="top-title">Our Location</h3>
+                <img src="./image/footer/map.png" alt="">
             </div>
         </div>
     </footer>

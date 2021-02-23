@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="icon" href="./favicon.png" type="image/png">
     <title>Pricing</title>
 </head>
 <body>
@@ -22,13 +23,13 @@
                         <a href="./classes.html">Classes</a>
                     </li>
                     <li class="menu-item">
-                        <a href="./pricing.html">Pricing</a>
+                        <a class="pricing-now" href="./pricing.html">Pricing</a>
                     </li>
                     <li class="menu-item">
                         <a href="./contact.html">Contact</a>
                     </li>
                 </ul>
-                <button class="nav-button main-button">Start your free trial</button>
+                <button class="nav-button main-button modal-button">Start your free trial</button>
             </nav>
             <div class="min-header">
                 <a href="#" class="menu-burger">
@@ -63,6 +64,23 @@
         </div>
     </section>
 
+    <section class="modal-wrapper">
+        <div class="modal">
+            <h2>Start your free trial</h2>
+            <form id="modal-form">
+                <label class="modal-form-block">
+                    <p>Name:</p>
+                    <input id="modal-name" type="text">
+                </label>
+                <label class="modal-form-block">
+                    <p>Phone:</p>
+                    <input id="modal-phone" type="text">
+                </label>
+                <button class="modal-form-button">Let`s go!</button>
+            </form>
+        </div> 
+    </section>
+
     <section class="pricing-pricelist">
         <div class="container">
             <div class="pricing-pricelist-content">
@@ -70,25 +88,25 @@
                     <p class="pricing-pricelist-price">$19 <span>/  One Class </span></p>
                     <h3 class="pricing-pricelist-title">Walk-In Rate</h3>
                     <p class="pricing-pricelist-text">Meant for the occassional practictioner! These classes NEVER expire!</p>
-                    <button class="main-button pricing-pricelist-button">sign up now</button>
+                    <button class="main-button pricing-pricelist-button modal-button">sign up now</button>
                 </div>
                 <div class="pricing-pricelist-item">
                     <p class="pricing-pricelist-price">$59 <span> /  5 Class</span></p>
                     <h3 class="pricing-pricelist-title">5 Class Pass</h3>
                     <p class="pricing-pricelist-text">Meant for the occassional practictioner! These classes NEVER expire!</p>
-                    <button class="main-button pricing-pricelist-button">sign up now</button>
+                    <button class="main-button pricing-pricelist-button modal-button">sign up now</button>
                 </div>
                 <div class="pricing-pricelist-item">
                     <p class="pricing-pricelist-price">$99 <span> /  10 Class</span></p>
                     <h3 class="pricing-pricelist-title">10 Class Pass</h3>
                     <p class="pricing-pricelist-text">Meant for the more frequent yogi. These classes NEVER expire!</p>
-                    <button class="main-button pricing-pricelist-button">sign up now</button>
+                    <button class="main-button pricing-pricelist-button modal-button">sign up now</button>
                 </div>
                 <div class="pricing-pricelist-item">
                     <p class="pricing-pricelist-price">$179 <span>/  20 Class</span></p>
                     <h3 class="pricing-pricelist-title">20 Class Pass</h3>
                     <p class="pricing-pricelist-text">Best deal for the yogi that comes a lot but needs time to use their passes.</p>
-                    <button class="main-button pricing-pricelist-button">sign up now</button>
+                    <button class="main-button pricing-pricelist-button modal-button">sign up now</button>
                 </div>
             </div>
         </div>
@@ -98,7 +116,7 @@
         <div class="container">
             <h2 class="pricing-call-title">2017 Renewal Series</h2>
             <p class="pricing-call-text">Finally, a resolution you can stick to. Reconnect with your fitness goals in 2017 with four classes designed to ease you back into your routine.</p>
-            <button class="main-button pricing-call-button">Take this challenge</button>
+            <button class="main-button pricing-call-button modal-button">Take this challenge</button>
         </div>
     </section>
 
@@ -127,7 +145,7 @@
                     <p class="top-contacts-content">PO Box 16122 Collins Street West,
                         Victoria 8007 Australia</p>
                     <a class="top-contacts-content link" href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
-                    <a class="top-contacts-content link" href="tel:+61 3 8376 6284">+61 3 8376 6284</a>
+                    <a class="top-contacts-content link" href="tel:+61383766284">+61 3 8376 6284</a>
                     <div class="top-social">
                         <div class="top-social-link facebook">
                             <a href="#"></a>
@@ -186,7 +204,7 @@
                 </div>
                 <div class="top-location">
                     <h3 class="top-title">Our Location</h3>
-                    <img src="./image/footer/map.png" alt="">
+                    <img src="./image/footer/map.png" alt="map">
                 </div>
             </div>
         </div>
@@ -280,7 +298,7 @@
             </div>
             <div class="top-location">
                 <h3 class="top-title">Our Location</h3>
-                <img src="./image/footer/map.png" alt="">
+                <img src="./image/footer/map.png" alt="map">
             </div>
         </div>
     </footer>

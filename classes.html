@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="icon" href="./favicon.png" type="image/png">
     <title>Classes</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
                         <a href="./about-us.html">About Us</a>
                     </li>
                     <li class="menu-item">
-                        <a href="./classes.html">Classes</a>
+                        <a class="classes-now" href="./classes.html">Classes</a>
                     </li>
                     <li class="menu-item">
                         <a href="./pricing.html">Pricing</a>
@@ -28,7 +29,7 @@
                         <a href="./contact.html">Contact</a>
                     </li>
                 </ul>
-                <button class="nav-button main-button">Start your free trial</button>
+                <button class="nav-button main-button modal-button">Start your free trial</button>
             </nav>
             <div class="min-header">
                 <a href="#" class="menu-burger">
@@ -64,232 +65,249 @@
         </div>
     </section>
 
+    <section class="modal-wrapper">
+        <div class="modal">
+            <h2>Start your free trial</h2>
+            <form id="modal-form">
+                <label class="modal-form-block">
+                    <p>Name:</p>
+                    <input id="modal-name" type="text">
+                </label>
+                <label class="modal-form-block">
+                    <p>Phone:</p>
+                    <input id="modal-phone" type="text">
+                </label>
+                <button class="modal-form-button">Let`s go!</button>
+            </form>
+        </div> 
+    </section>
+
     <section class="classes-content">
         <div class="container classes-wrapper">
             <img class="classes-img" src="./image/classes/img.png" alt="carpet">
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-1.png" alt="img classes 1" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-1.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html"  target="_blank" class="classes-item-title">Seated and Supine Poses for Beginners</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Welcome to part 5 of our beginner series with Simon Park! </p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-2.png" alt="img classes 2" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-2.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Work Towards Compass Pose</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Stretch shoulders, hips, and hamstrings as you work towards Compass Pose (Parivrtta Surya Yantrasana).</p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-3.png" alt="img classes 3" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-3.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Handstand Variations and Transitions</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Explore handstand variations and transitions in this advanced class. A brief warm up will prepare you to play with inversions! </p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-4.png" alt="img classes 4" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-4.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Advanced Backbending</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Amanda Botur has created a class to help you prepare for the hormonal shifts and rising emotions that may occur in the days ...</p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-5.png" alt="img classes 5" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-5.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Seated and Supine Poses for Beginners</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Welcome to part 5 of our beginner series with Simon Park! </p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-6.png" alt="img classes 6" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-6.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Work Towards Compass Pose</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Stretch shoulders, hips, and hamstrings as you work towards Compass Pose (Parivrtta Surya Yantrasana).</p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-7.png" alt="img classes 7" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-7.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Handstand Variations and Transitions</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Explore handstand variations and transitions in this advanced class. A brief warm up will prepare you to play with inversions! </p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-8.png" alt="img classes 8" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-8.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Advanced Backbending</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Amanda Botur has created a class to help you prepare for the hormonal shifts and rising emotions that may occur in the days ...</p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-9.png" alt="img classes 9" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-9.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Seated and Supine Poses for Beginners</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Welcome to part 5 of our beginner series with Simon Park! </p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-10.png" alt="img classes 10" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-10.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Work Towards Compass Pose</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Stretch shoulders, hips, and hamstrings as you work towards Compass Pose (Parivrtta Surya Yantrasana).</p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-11.png" alt="img classes 11" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-11.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Handstand Variations and Transitions</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
                 <p class="classes-item-text">Explore handstand variations and transitions in this advanced class. A brief warm up will prepare you to play with inversions! </p>
             </div>
             <div class="classes-item">
-                <img src="./image/classes/img/img-classes-12.png" alt="img classes 12" class="classes-item-img">
+                <a href="./single.html"><img src="./image/classes/img/img-classes-12.png" alt="img classes" class="classes-item-img"></a>    
                 <a href="./single.html" target="_blank" class="classes-item-title">Advanced Backbending</a>
                 <div class="classes-item-dis">
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-1.png" alt="">
+                        <img src="./image/home/classes/icon-classes-1.png" alt="classes icon">
                         <p>7:00 am — 11:00 am</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-2.png" alt="">
+                        <img src="./image/home/classes/icon-classes-2.png" alt="classes icon">
                         <p>Simon Park</p>
                     </div>
                     <div class="classes-item-dis-item">
-                        <img src="./image/home/classes/icon-classes-3.png" alt="">
+                        <img src="./image/home/classes/icon-classes-3.png" alt="classes icon">
                         <p>Advanced</p>
                     </div>
                 </div>
@@ -323,7 +341,7 @@
                     <p class="top-contacts-content">PO Box 16122 Collins Street West,
                         Victoria 8007 Australia</p>
                     <a class="top-contacts-content link" href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
-                    <a class="top-contacts-content link" href="tel:+61 3 8376 6284">+61 3 8376 6284</a>
+                    <a class="top-contacts-content link" href="tel:+61383766284">+61 3 8376 6284</a>
                     <div class="top-social">
                         <div class="top-social-link facebook">
                             <a href="#"></a>
@@ -382,7 +400,7 @@
                 </div>
                 <div class="top-location">
                     <h3 class="top-title">Our Location</h3>
-                    <img src="./image/footer/map.png" alt="">
+                    <img src="./image/footer/map.png" alt="map">
                 </div>
             </div>
         </div>
@@ -476,7 +494,7 @@
             </div>
             <div class="top-location">
                 <h3 class="top-title">Our Location</h3>
-                <img src="./image/footer/map.png" alt="">
+                <img src="./image/footer/map.png" alt="map">
             </div>
         </div>
     </footer>

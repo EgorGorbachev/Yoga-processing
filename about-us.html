@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="icon" href="./favicon.png" type="image/png">
     <title>About Us</title>
 </head>
 <body>
-    
     <section class="aboutus-inner">
         <header>
             <a class="logo" href="#"></a>
@@ -17,7 +17,7 @@
                         <a href="./index.html">Home</a>
                     </li>
                     <li class="menu-item">
-                        <a href="./about-us.html">About Us</a>
+                        <a class="aboutus-now" href="./about-us.html">About Us</a>
                     </li>
                     <li class="menu-item">
                         <a href="./classes.html">Classes</a>
@@ -29,7 +29,7 @@
                         <a href="./contact.html">Contact</a>
                     </li>
                 </ul>
-                <button class="nav-button main-button">Start your free trial</button>
+                <button class="nav-button main-button modal-button">Start your free trial</button>
             </nav>
             <div class="min-header">
                 <a href="#" class="menu-burger">
@@ -64,9 +64,26 @@
         </div>
     </section>
 
+    <section class="modal-wrapper">
+        <div class="modal">
+            <h2>Start your free trial</h2>
+            <form id="modal-form">
+                <label class="modal-form-block">
+                    <p>Name:</p>
+                    <input id="modal-name" type="text">
+                </label>
+                <label class="modal-form-block">
+                    <p>Phone:</p>
+                    <input id="modal-phone" type="text">
+                </label>
+                <button class="modal-form-button">Let`s go!</button>
+            </form>
+        </div> 
+    </section>
+
     <section class="aboutus-about">
         <div class="container aboutus-wrapper">
-            <img class="aboutus-about-img" src="./image/about-us/about/bg-about.png" alt="">
+            <img class="aboutus-about-img" src="./image/about-us/about/bg-about.png" alt="about bg">
             <div class="aboutus-about-text">
                 <p class="aboutus-about-text-item">We offers over 4,000 professionally-filmed online yoga classes taught by experienced, certified yoga teachers to customers around the world. We believe that yoga should be accessible to everyone and our classes are designed to give you an in-studio e
                     xperience, at an affordable price, in your own home. </p>
@@ -86,17 +103,17 @@
         <div class="container">
             <div class="aboutus-classes-wr">
                 <div class="aboutus-classes-item">
-                    <img src="./image/about-us/classes/img-classes-1.jpg" alt="">
+                    <img src="./image/about-us/classes/img-classes-1.jpg" alt="classes img">
                     <h3 class="aboutus-classes-item-title">Basic Step</h3>
                     <p class="aboutus-classes-item-text">This class is designed for first time yogis. It's the right class for you if you want to learn the fundamentals of yoga in a group where everyone is new. The teacher will give you some background on yoga while you're seated, but come prepared to move. You’ll walk out feeling embodied, empowered, energized, and eager to come back.</p>
                 </div>
                 <div class="aboutus-classes-item">
-                    <img src="./image/about-us/classes/img-classes-2.jpg" alt="">
+                    <img src="./image/about-us/classes/img-classes-2.jpg" alt="classes img">
                     <h3 class="aboutus-classes-item-title">Level 1 Classes</h3>
                     <p class="aboutus-classes-item-text">We recommend any of our classes that are designated as Level 1, such as Hatha, YogaWorks, and Flow. Level 1 caters to beginning students and focuses on the basics. You'll be surrounded by both brand new and returning practitioners as well as more advanced yogis who want to work on beginning poses.</p>
                 </div>
                 <div class="aboutus-classes-item">
-                    <img src="./image/about-us/classes/img-classes-3.jpg" alt="">
+                    <img src="./image/about-us/classes/img-classes-3.jpg" alt="classes img">
                     <h3 class="aboutus-classes-item-title">Gentle Yoga</h3>
                     <p class="aboutus-classes-item-text">The slower pace of Wand Yoga Gentle classes make them a great choice if you want a less strenuous approach to your practice. These extremely accessible classes are perfect for anyone looking to develop a practice of conscious, mindful movement with some support—from seniors to pregnant women to world-class athletes.</p>
                 </div>
@@ -111,21 +128,21 @@
                     <div class="aboutus-slide swiper-slide">
                         <h3 class="aboutus-slide-title">So Many Features</h3>
                         <p class="aboutus-slide-text">Great template! Very fast and easy to configure. Intuitive interface, didn't even have to read the documentation. There were several questions that the author answered quickly. For customization themes no need to edit css.</p>
-                        <img src="./image/about-us/testimonials/img-team-1.png" alt="" class="aboutus-slide-img">
+                        <img src="./image/about-us/testimonials/img-team-1.png" alt="about us slide img" class="aboutus-slide-img">
                         <p class="aboutus-slide-name">Svetlin Denkov</p>
                         <p class="aboutus-slide-supname ">Envato author</p>
                     </div>
                     <div class="aboutus-slide swiper-slide">
                         <h3 class="aboutus-slide-title">So Many Features</h3>
                         <p class="aboutus-slide-text">Great template! Very fast and easy to configure. Intuitive interface, didn't even have to read the documentation. There were several questions that the author answered quickly. For customization themes no need to edit css.</p>
-                        <img src="./image/about-us/testimonials/img-team-2.png" alt="" class="aboutus-slide-img">
+                        <img src="./image/about-us/testimonials/img-team-2.png" alt="about us slide img" class="aboutus-slide-img">
                         <p class="aboutus-slide-name">Svetlin Denkov</p>
                         <p class="aboutus-slide-supname ">Envato author</p>
                     </div>
                     <div class="aboutus-slide swiper-slide">
                         <h3 class="aboutus-slide-title">So Many Features</h3>
                         <p class="aboutus-slide-text">Great template! Very fast and easy to configure. Intuitive interface, didn't even have to read the documentation. There were several questions that the author answered quickly. For customization themes no need to edit css.</p>
-                        <img src="./image/about-us/testimonials/img-team-3.png" alt="" class="aboutus-slide-img">
+                        <img src="./image/about-us/testimonials/img-team-3.png" alt="about us slide img" class="aboutus-slide-img">
                         <p class="aboutus-slide-name">Svetlin Denkov</p>
                         <p class="aboutus-slide-supname ">Envato author</p>
                     </div>
@@ -157,7 +174,7 @@
         <div class="container">
             <h2 class="aboutus-call-title">Tap into your inner fountain of youth</h2>
             <p class="aboutus-call-text">Access hundreds of yoga classes shot in natural studios around the world. Unlimited access for $15/month.</p>
-            <button class="aboutus-call-button main-button">Start Your 14-Day Free Trial</button>
+            <button class="aboutus-call-button main-button modal-button">Start Your 14-Day Free Trial</button>
         </div>
     </section>
 
@@ -186,7 +203,7 @@
                     <p class="top-contacts-content">PO Box 16122 Collins Street West,
                         Victoria 8007 Australia</p>
                     <a class="top-contacts-content link" href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
-                    <a class="top-contacts-content link" href="tel:+61 3 8376 6284">+61 3 8376 6284</a>
+                    <a class="top-contacts-content link" href="tel:+61383766284">+61 3 8376 6284</a>
                     <div class="top-social">
                         <div class="top-social-link facebook">
                             <a href="#"></a>
@@ -245,7 +262,7 @@
                 </div>
                 <div class="top-location">
                     <h3 class="top-title">Our Location</h3>
-                    <img src="./image/footer/map.png" alt="">
+                    <img src="./image/footer/map.png" alt="map">
                 </div>
             </div>
         </div>
@@ -339,12 +356,13 @@
             </div>
             <div class="top-location">
                 <h3 class="top-title">Our Location</h3>
-                <img src="./image/footer/map.png" alt="">
+                <img src="./image/footer/map.png" alt="map">
             </div>
         </div>
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/slider.min.js"></script>
     <script src="./js/main.min.js"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="icon" href="./favicon.png" type="image/png">
     <title>Contacts</title>
 </head>
 <body>
@@ -25,10 +26,10 @@
                         <a href="./pricing.html">Pricing</a>
                     </li>
                     <li class="menu-item">
-                        <a href="./contact.html">Contact</a>
+                        <a class="contact-now" href="./contact.html">Contact</a>
                     </li>
                 </ul>
-                <button class="nav-button main-button">Start your free trial</button>
+                <button class="nav-button main-button modal-button">Start your free trial</button>
             </nav>
             <div class="min-header">
                 <a href="#" class="menu-burger">
@@ -63,6 +64,23 @@
         </div>
     </section>
 
+    <section class="modal-wrapper">
+        <div class="modal">
+            <h2>Start your free trial</h2>
+            <form id="modal-form">
+                <label class="modal-form-block">
+                    <p>Name:</p>
+                    <input id="modal-name" type="text">
+                </label>
+                <label class="modal-form-block">
+                    <p>Phone:</p>
+                    <input id="modal-phone" type="text">
+                </label>
+                <button class="modal-form-button">Let`s go!</button>
+            </form>
+        </div> 
+    </section>
+
     <section class="contacts-form">
         <div class="contacts-form-img">
             <img src="./image/contacts/bg-contacts.png" alt="bg-contacts">
@@ -71,14 +89,14 @@
             <div class="contacts-form-content">
                 <form class="contacts-form-main">
                     <div class="inputs-block">
-                        <input type="text" placeholder="Name">
-                        <input type="text" placeholder="Email">
-                        <input type="text" placeholder="Phone">
+                        <input id="name" type="text" placeholder="Name" >
+                        <input id="email" type="text" placeholder="Email" >
+                        <input id="phone" type="text" placeholder="Phone" >
                         <input type="text" placeholder="Subject">
                     </div>
                     <textarea class="contacts-form-textarea" name="contacts-form-textarea" id="contacts-form-textarea" placeholder="Massage"></textarea>
                     <div class="contacts-form-button">
-                        <button>Send message</button>
+                        <button id="send-button">Send message</button>
                     </div>
                 </form>
                 <div class="slider-contacts-container">
@@ -86,14 +104,14 @@
                         <div class="contacts-form-maps swiper-wrapper">
                             <div class="slider-contacts-slide  swiper-slide">
                                 <div class="contacts-form-maps-item">
-                                    <img src="./image/contacts/img-contacts-map-1.png" alt="">
+                                    <img src="./image/contacts/img-contacts-map-1.png" alt="contacts map">
                                     <h3 class="contacts-form-maps-title">Newyork Studio</h3>
                                     <p class="contacts-form-maps-text">PO Box16122 Collins Street West, Victoria 8007 Australia</p>
                                     <a href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
                                     <a href="tel:+61383766284">+61 3 8376 6284</a>
                                 </div>
                                 <div class="contacts-form-maps-item">
-                                    <img src="./image/contacts/img-contacts-map-1.png" alt="">
+                                    <img src="./image/contacts/img-contacts-map-1.png" alt="contacts map">
                                     <h3 class="contacts-form-maps-title">Newyork Studio</h3>
                                     <p class="contacts-form-maps-text">PO Box16122 Collins Street West, Victoria 8007 Australia</p>
                                     <a href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
@@ -102,14 +120,14 @@
                             </div>
                             <div class="slider-contacts-slide  swiper-slide">
                                 <div class="contacts-form-maps-item">
-                                    <img src="./image/contacts/img-contacts-map-1.png" alt="">
+                                    <img src="./image/contacts/img-contacts-map-1.png" alt="contacts map">
                                     <h3 class="contacts-form-maps-title">Newyork Studio</h3>
                                     <p class="contacts-form-maps-text">PO Box16122 Collins Street West, Victoria 8007 Australia</p>
                                     <a href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
                                     <a href="tel:+61383766284">+61 3 8376 6284</a>
                                 </div>
                                 <div class="contacts-form-maps-item">
-                                    <img src="./image/contacts/img-contacts-map-1.png" alt="">
+                                    <img src="./image/contacts/img-contacts-map-1.png" alt="contacts map">
                                     <h3 class="contacts-form-maps-title">Newyork Studio</h3>
                                     <p class="contacts-form-maps-text">PO Box16122 Collins Street West, Victoria 8007 Australia</p>
                                     <a href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
@@ -118,14 +136,14 @@
                             </div>
                             <div class="slider-contacts-slide  swiper-slide">
                                 <div class="contacts-form-maps-item">
-                                    <img src="./image/contacts/img-contacts-map-1.png" alt="">
+                                    <img src="./image/contacts/img-contacts-map-1.png" alt="contacts map">
                                     <h3 class="contacts-form-maps-title">Newyork Studio</h3>
                                     <p class="contacts-form-maps-text">PO Box16122 Collins Street West, Victoria 8007 Australia</p>
                                     <a href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
                                     <a href="tel:+61383766284">+61 3 8376 6284</a>
                                 </div>
                                 <div class="contacts-form-maps-item">
-                                    <img src="./image/contacts/img-contacts-map-1.png" alt="">
+                                    <img src="./image/contacts/img-contacts-map-1.png" alt="contacts map">
                                     <h3 class="contacts-form-maps-title">Newyork Studio</h3>
                                     <p class="contacts-form-maps-text">PO Box16122 Collins Street West, Victoria 8007 Australia</p>
                                     <a href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
@@ -165,7 +183,7 @@
                     <p class="top-contacts-content">PO Box 16122 Collins Street West,
                         Victoria 8007 Australia</p>
                     <a class="top-contacts-content link" href="mailto:Alitstudios@gmai.com">Alitstudios@gmai.com</a>
-                    <a class="top-contacts-content link" href="tel:+61 3 8376 6284">+61 3 8376 6284</a>
+                    <a class="top-contacts-content link" href="tel:+61383766284">+61 3 8376 6284</a>
                     <div class="top-social">
                         <div class="top-social-link facebook">
                             <a href="#"></a>
@@ -224,7 +242,7 @@
                 </div>
                 <div class="top-location">
                     <h3 class="top-title">Our Location</h3>
-                    <img src="./image/footer/map.png" alt="">
+                    <img src="./image/footer/map.png" alt="map">
                 </div>
             </div>
         </div>
@@ -318,12 +336,14 @@
             </div>
             <div class="top-location">
                 <h3 class="top-title">Our Location</h3>
-                <img src="./image/footer/map.png" alt="">
+                <img src="./image/footer/map.png" alt="map">
             </div>
         </div>
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/main.min.js"></script>
+    <script src="./js/slider.min.js"></script>
+    <script src="./js/validForm.min.js"></script>
 </body>
 </html>
